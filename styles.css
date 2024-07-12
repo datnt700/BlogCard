@@ -1,0 +1,57 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #e5eaf0;
+}
+
+.container {
+  margin: 164px auto;
+  padding: 16px 16px 20px;
+  max-width: 368px;
+  border: 1px solid transparent;
+  border-radius: 5%;
+  background-color: #ffffff;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+.image {
+  height: 152px;
+  width: 100%;
+}
+
+.tag {
+  margin-top: 16px;
+  padding: 6px 16px;
+  font-size: 0.625rem;
+  color: #6a0dad;
+  background-color: #e6ccff;
+  border-radius: 20px;
+  text-align: center;
+  font-weight: bold;
+  width: 15%;
+}
+
+.title {
+  margin: 16px 0 0;
+  font-size: 1.125rem;
+}
+
+.description {
+  font-size: 0.75rem;
+  margin: 6px 0 20px;
+}
+
+.line {
+  border-color: #20293a;
+  width: 100%;
+  margin: 0;
+}
+
+.name {
+  margin: 25px 0 0;
+  font-size: 0.625rem;
+}
