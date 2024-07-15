@@ -1,13 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
 $font-family: 'Sora', sans-serif;
 $border-radius: 20px;
-$text-color: #6c727f;
+$color-text: #6c727f;
+$line-border-width: 0.5px;
+$line-border-color: #e5eaf0;
+$title-text: 1.125rem;
+$body-text: 0.875rem;
+$small-text: 0.75rem;
+$tag-text: 0.625rem;
 
 body {
   padding: 0;
   margin: 0;
   background-color: #e5eaf0;
-  font-family: 'Sora', sans-serif;
+  font-family: $font-family;
 }
 
 .card {
@@ -16,7 +22,7 @@ body {
 }
 
 .container {
-  border: 1px solid transparent;
+  border: $line-border-width solid transparent;
   border-radius: $border-radius;
   background-color: #ffffff;
 
@@ -32,29 +38,28 @@ body {
     .tag {
       margin-top: 1rem;
       padding: 0.4rem 1rem;
-      font-size: 0.625rem;
+      font-size: $tag-text;
       color: #6a0dad;
       background-color: #e6ccff;
       border-radius: $border-radius;
-      text-align: center;
       font-weight: bold;
       display: inline-block;
     }
 
     .title {
       margin: 1rem 0 0;
-      font-size: 1.125rem;
+      font-size: $title-text;
     }
 
     .description {
-      font-size: 0.875rem;
-      color: $text-color;
+      font-size: $body-text;
+      color: $color-text;
       margin: 0.4rem 0 0;
     }
   }
 
   .line {
-    border: 0.5px solid #e5eaf0;
+    border: $line-border-width solid $line-border-color;
     width: 100%;
     margin: 0;
   }
@@ -62,8 +67,8 @@ body {
     margin: 1.2rem 1rem;
 
     .name {
-      font-size: 0.75rem;
-      color: $text-color;
+      font-size: $small-text;
+      color: $color-text;
     }
   }
 }
