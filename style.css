@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #e5eaf0;
+  font-family: "Sora", sans-serif;
+}
+
+.card {
+  max-width: 23rem;
+  margin: 10.25rem auto;
+}
+
+.container {
+  border: 1px solid transparent;
+  border-radius: 20px;
+  background-color: #ffffff;
+}
+.container .header {
+  padding: 1rem 1rem 1.2rem;
+}
+.container .header .image {
+  height: 9.5rem;
+  width: 100%;
+  border-radius: 20px;
+}
+.container .header .tag {
+  margin-top: 1rem;
+  padding: 0.4rem 1rem;
+  font-size: 0.625rem;
+  color: #6a0dad;
+  background-color: #e6ccff;
+  border-radius: 20px;
+  text-align: center;
+  font-weight: bold;
+  display: inline-block;
+}
+.container .header .title {
+  margin: 1rem 0 0;
+  font-size: 1.125rem;
+}
+.container .header .description {
+  font-size: 0.875rem;
+  color: #6c727f;
+  margin: 0.4rem 0 0;
+}
+.container .line {
+  border: 0.5px solid #e5eaf0;
+  width: 100%;
+  margin: 0;
+}
+.container .footer {
+  margin: 1.2rem 1rem;
+}
+.container .footer .name {
+  font-size: 0.75rem;
+  color: #6c727f;
+}
+
+/*# sourceMappingURL=style.css.map */
